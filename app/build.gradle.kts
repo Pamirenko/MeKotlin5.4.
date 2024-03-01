@@ -55,10 +55,6 @@ dependencies {
     implementation ("androidx.fragment:fragment-ktx:1.6.2")
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
 
-
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-
     //Retrofit_2
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
@@ -67,9 +63,4 @@ dependencies {
     // define any required OkHttp artifacts without version
     implementation("com.squareup.okhttp3:okhttp")
     implementation("com.squareup.okhttp3:logging-interceptor")
-
-    implementation("com.github.bumbtech.glide:glide:4.9.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.9.0")
-
-
 }

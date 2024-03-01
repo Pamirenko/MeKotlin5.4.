@@ -1,5 +1,6 @@
 package com.example.mekotlin54.ui.fragments
 
+import CharacterViewModel
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -10,14 +11,13 @@ import androidx.fragment.app.viewModels
 import com.example.mekotlin54.databinding.FragmentCharacterBinding
 import com.example.mekotlin54.ui.adapters.CharacterAdapters
 
-
 class CharacterFragment : Fragment() {
 
 
     private var _binding: FragmentCharacterBinding? = null
     private val binding: FragmentCharacterBinding get() = _binding!!
     private val adapter = CharacterAdapters()
-    private val viewModel by viewModels<CharacterViewModel<Any?>>()
+    private val viewModel by viewModels<CharacterViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
